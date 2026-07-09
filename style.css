@@ -204,3 +204,75 @@ width:110px;
 }
 
 }
+/* Estilo premium Lanier Business Group */
+
+body{
+background:#000;
+color:#fff;
+}
+
+header{
+background:linear-gradient(180deg,#000000,#111111);
+padding:70px 20px;
+}
+
+.logo{
+width:120px;
+filter:drop-shadow(0 0 15px #d4af37);
+}
+
+header h1{
+color:#d4af37;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+
+header p{
+color:#ffffff;
+font-size:22px;
+}
+
+.boton{
+background:#d4af37;
+color:#000;
+border-radius:30px;
+padding:16px 40px;
+box-shadow:0 0 20px rgba(212,175,55,.5);
+}
+
+.boton:hover{
+background:#fff;
+color:#000;
+}
+
+section{
+background:#000;
+}
+
+section h2{
+color:#d4af37;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+.card,
+.vacante{
+background:#0b0b0b;
+border:1px solid #d4af37;
+box-shadow:0 10px 30px rgba(0,0,0,.8);
+}
+
+.card h3,
+.vacante h3{
+color:#d4af37;
+}
+
+.card p,
+.vacante p{
+color:#ddd;
+}
+
+footer{
+background:#000;
+border-top:1px solid #d4af37;
+}
