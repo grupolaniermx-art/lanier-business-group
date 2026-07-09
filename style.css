@@ -95,6 +95,52 @@ margin-top:50px;
 
 @media(max-width:768px){
 
+header{
+padding:35px 15px;
+}
+
+header h1{
+font-size:26px;
+line-height:1.2;
+}
+
+header p{
+font-size:16px;
+}
+
+.logo{
+width:100px;
+}
+
+.boton{
+width:90%;
+max-width:300px;
+padding:13px 20px;
+}
+
+section{
+padding:35px 15px;
+}
+
+section h2{
+font-size:25px;
+}
+
+.card{
+min-width:100%;
+padding:20px;
+}
+
+.vacante{
+padding:20px;
+}
+
+body{
+overflow-x:hidden;
+}
+
+}
+
 header h1{
 font-size:28px;
 }
