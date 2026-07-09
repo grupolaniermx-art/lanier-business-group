@@ -275,3 +275,11 @@ footer{
 background:#000;
 border-top:1px solid #d4af37;
 }
+.imagen-portada{
+width:100%;
+max-width:350px;
+height:auto;
+margin:20px auto;
+display:block;
+border-radius:12px;
+}
