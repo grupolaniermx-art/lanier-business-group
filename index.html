@@ -6,6 +6,8 @@
 
 <title>Lanier Business Group</title>
 
+
+<style>
 .galeria{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -22,11 +24,9 @@
     border:1px solid rgba(212,175,55,.35);
 }
 
-/* Celular */
 @media(max-width:600px){
     .galeria{
         grid-template-columns:1fr;
-        gap:15px;
         padding:10px;
     }
 
@@ -34,22 +34,7 @@
         height:180px !important;
     }
 }
-
-/* Ajuste para celular */
-@media(max-width:600px){
-    .galeria{
-        grid-template-columns:1fr;
-        padding:10px;
-        gap:15px;
-    }
-
-    .galeria img{
-        height:180px;
-        border-radius:12px;
-    }
-}<style>
-  
-*{
+</style>
 margin:0;
 padding:0;
 box-sizing:border-box;
