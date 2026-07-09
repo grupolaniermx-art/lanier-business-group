@@ -12,10 +12,11 @@ line-height:1.6;
 }
 
 header{
-background:#0d2b52;
+background:#000000;
 color:white;
 text-align:center;
 padding:50px 20px;
+border-bottom:4px solid #d4af37;
 }
 
 .logo{
@@ -33,16 +34,14 @@ header p{
 font-size:20px;
 margin-bottom:30px;
 }
-
 .boton{
 display:inline-block;
 background:#d4af37;
-color:#0d2b52;
+color:#000000;
 padding:15px 30px;
 text-decoration:none;
 font-weight:bold;
 border-radius:8px;
-transition:.3s;
 }
 
 .boton:hover{
@@ -58,10 +57,9 @@ padding:60px 20px;
 section h2{
 text-align:center;
 margin-bottom:25px;
-color:#0d2b52;
+color:#d4af37;
 font-size:32px;
 }
-
 .tarjetas{
 display:flex;
 gap:20px;
@@ -87,7 +85,7 @@ box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 
 footer{
-background:#0d2b52;
+background:#000000;
 color:white;
 text-align:center;
 padding:25px;
