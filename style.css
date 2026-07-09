@@ -19,7 +19,8 @@ padding:70px 20px;
 .logo{
 width:120px;
 max-width:80%;
-margin-bottom:20px;
+margin:0 auto 20px auto;
+display:block;
 }
 
 header h1{
