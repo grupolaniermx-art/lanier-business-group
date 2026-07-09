@@ -277,11 +277,9 @@ border-top:1px solid #d4af37;
 }
 .imagen-portada{
 width:100%;
-max-width:700px;
+max-width:450px;
 height:auto;
 display:block;
-margin:40px auto 0;
-border-radius:20px;
-border:2px solid #d4af37;
-box-shadow:0 15px 35px rgba(0,0,0,.5);
+margin:30px auto;
+border-radius:15px;
 }
