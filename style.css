@@ -13,7 +13,16 @@ line-height:1.6;
 
 header{
     background:
-    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+   header{
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)),
+    url("./oficina.PNG");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:70px 20px;
+    text-align:center;
+}
    url("./oficina.PNG") center/cover no-repeat;
     padding:70px 20px;
     text-align:center;
