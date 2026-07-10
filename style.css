@@ -12,8 +12,11 @@ line-height:1.6;
 }
 
 header{
-background:#000000;
-padding:70px 20px;
+    background:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+    url("oficina.PNG") center/cover no-repeat;
+    padding:70px 20px;
+    text-align:center;
 }
 .logo{
     width:140px;
