@@ -185,9 +185,11 @@ width:100px;
 }
 
 .boton{
-width:90%;
-max-width:300px;
-padding:13px 20px;
+    width:90%;
+    max-width:360px;
+    display:block;
+    margin:20px auto;
+    text-align:center;
 }
 
 section{
@@ -305,4 +307,27 @@ border-top:1px solid #d4af37;
 .card img{
     width: 100%;
     margin-top: 12px;
+}
+.card{
+    box-shadow:0 0 18px rgba(212,175,55,.18);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 28px rgba(212,175,55,.35);
+} 
+.card{
+    animation: fade .8s ease;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
