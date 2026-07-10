@@ -361,5 +361,9 @@ border-top:1px solid #d4af37;
         margin: 15px auto;
         text-align: center;
     }
-
+@media (max-width:600px){
+    img.logo{
+        width:140px !important;
+        height:auto !important;
+    }
 }
