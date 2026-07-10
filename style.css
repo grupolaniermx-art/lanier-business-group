@@ -64,13 +64,9 @@ flex-wrap:wrap;
 justify-content:center;
 }
 .card{
-    background:#111;
-    border:1px solid #c8a43d;
-    border-radius:18px;
-    padding:18px;
-    margin:20px auto;
-    width:100%;
-    box-sizing:border-box;
+    margin: 12px 0;
+    padding: 16px;
+    border-radius: 14px;
 }
 .vacante{
 background:#111111;
@@ -307,9 +303,6 @@ background:#000;
 border-top:1px solid #d4af37;
 }
 .card img{
-    width:100%;
-    max-width:700px;
-    display:block;
-    margin:20px auto 0;
-    border-radius:14px;
+    width: 100%;
+    margin-top: 12px;
 }
