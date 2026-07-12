@@ -236,8 +236,13 @@ color:#fff;
 }
 
 header{
-background:linear-gradient(180deg,#000000,#111111);
-padding:70px 20px;
+    background:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("./fondo.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:70px 20px;
 }
 
 .logo{
