@@ -285,3 +285,24 @@ footer{
     margin:25px auto 0;
     border-radius:15px;
 }
+/* Corrección imagen y sección Quiénes somos */
+
+.imagen-portada{
+    width:100%;
+    max-width:700px;
+    height:auto;
+    display:block;
+    margin:25px auto 0;
+    border-radius:15px;
+}
+
+.card:has(.imagen-portada){
+    max-width:1000px;
+    width:100%;
+    text-align:left;
+}
+
+.card:has(.imagen-portada) p{
+    font-size:18px;
+    line-height:1.8;
+}
