@@ -1,481 +1,273 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-background:#000000;
-color:white;
-line-height:1.6;
+    background:#000;
+    color:white;
+    line-height:1.6;
+    overflow-x:hidden;
 }
 
-header{
-    background: url("./fondo.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 120px 20px;
-    text-align: center;
-}
-.logo{
-    width:140px;
-    margin:0 auto 20px;
-    display:block;
-}
-
-header h1{
-font-size:38px;
-margin-bottom:10px;
-}
-
-header p{
-font-size:20px;
-margin-bottom:30px;
-}
-.boton{
-display:inline-block;
-background:#d4af37;
-color:#000000;
-padding:15px 30px;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-}
-
-.boton:hover{
-background:white;
-}
-
-section{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    padding: 25px 14px;
-    box-sizing: border-box;
-}
-section h2{
-text-align:center;
-margin-bottom:25px;
-color:#d4af37;
-font-size:32px;
-}
-.tarjetas{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-justify-content:center;
-}
-.card{
-    margin: 12px 0;
-    padding: 16px;
-    border-radius: 14px;
-}
-.vacante{
-background:#111111;
-color:white;
-padding:30px;
-border:1px solid #d4af37;
-border-radius:12px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
-
-footer{
-background:#000000;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:50px;
-}
-@media (max-width:768px){
-
-    body{
-        font-size:17px;
-    }
-
-    h1{
-        font-size:34px;
-    }
-
-    h2{
-        font-size:32px;
-    }
-
-    p{
-        font-size:19px;
-        line-height:1.7;
-    }
-
-    section{
-        padding:20px 12px;
-    }
-
-    .card{
-        padding:18px;
-    }
-
-    .card img{
-        width:100%;
-    }
-
-    .boton{
-        width:100%;
-        text-align:center;
-        padding:16px;
-    }
-
-header h1{
-font-size:26px;
-line-height:1.2;
-}
-
-header p{
-font-size:16px;
-}
-
-.logo{
-width:90px;
-}
-
-.boton{
-    display:inline-block;
-    padding:16px 34px;
-    border-radius:40px;
-    font-size:17px;
-}
-
-section{
-padding:35px 15px;
-}
-
-section h2{
-font-size:25px;
-}
-
-.card{
-min-width:100%;
-padding:20px;
-}
-
-.vacante{
-padding:20px;
-}
-
-body{
-overflow-x:hidden;
-}
-
-header{
-padding:35px 15px;
-}
-
-header h1{
-font-size:26px;
-line-height:1.2;
-}
-
-header p{
-font-size:16px;
-}
-
-.logo{
-width:100px;
-}
-
-.boton{
-    width:90%;
-    max-width:360px;
-    display:block;
-    margin:20px auto;
-    text-align:center;
-}
-
-section{
-padding:35px 15px;
-}
-
-section h2{
-font-size:25px;
-}
-
-.card{
-min-width:100%;
-padding:20px;
-}
-
-.vacante{
-padding:20px;
-}
-
-body{
-overflow-x:hidden;
-}
-header h1{
-font-size:28px;
-}
-
-header p{
-font-size:18px;
-}
-
-.tarjetas{
-flex-direction:column;
-}
-
-.logo{
-width:110px;
-}
-
-/* Estilo premium Lanier Business Group */
-
-body{
-background:#000;
-color:#fff;
-}
+/* PORTADA */
 
 header{
     background:
-        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-        url("./fondo.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding:70px 20px;
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("./fondo.PNG");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    padding:80px 20px;
+    text-align:center;
 }
 
 .logo{
-width:130px;
-filter:drop-shadow(0 0 10px rgba(212,175,55,.7));
-}
-header h1{
-color:#d4af37;
-letter-spacing:2px;
-text-transform:uppercase;
-font-size:42px;
-text-shadow:0 3px 10px rgba(0,0,0,.8);
-}
-
-header p{
-color:#ffffff;
-font-size:22px;
-max-width:600px;
-margin:0 auto 30px;
-text-shadow:0 2px 8px rgba(0,0,0,.8);
-}
-
-.boton{
-background:#d4af37;
-color:#000;
-border-radius:30px;
-padding:16px 40px;
-box-shadow:0 0 20px rgba(212,175,55,.5);
-}
-
-.boton:hover{
-background:#fff;
-color:#000;
-}
-
-section{
-background:#000;
-}
-
-section h2{
-color:#d4af37;
-text-transform:uppercase;
-letter-spacing:1px;
-}
-
-.card,
-.vacante{
-background:#0b0b0b;
-border:1px solid #d4af37;
-box-shadow:0 10px 30px rgba(0,0,0,.8);
-}
-
-.card h3,
-.vacante h3{
-color:#d4af37;
-}
-
-.card p,
-.vacante p{
-color:#ddd;
-}
-
-footer{
-background:#000;
-border-top:1px solid #d4af37;
-}
-.card img{
-    width: 100%;
-    margin-top: 12px;
-}
-.card{
-    box-shadow:0 0 18px rgba(212,175,55,.18);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-3px);
-    box-shadow:0 0 28px rgba(212,175,55,.35);
-} 
-.card{
-    animation: fade .8s ease;
-}
-
-@keyframes fade{
-    from{
-        opacity:0;
-        transform:translateY(20px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-/* Ajustes para celular */
-@media (max-width: 600px){
-
-    header{
-        padding: 40px 15px;
-        text-align: center;
-    }
-
-    header h1{
-        font-size: 28px;
-    }
-
-    .logo{
-        width: 140px;
-        margin-bottom: 15px;
-    }
-
-    .card{
-        width: 90%;
-        margin: 20px auto;
-        padding: 20px;
-    }
-
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-
-    .galeria img{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-
-    .boton{
-        display: block;
-        width: 90%;
-        margin: 15px auto;
-        text-align: center;
-    }
-@media (max-width:600px){
-    img.logo{
-        width:140px !important;
-        height:auto !important;
-    }
-header h1{
-    font-size:42px !important;
-    color:#d4af37 !important;
-    text-shadow:0 3px 10px rgba(0,0,0,.8);
-}
-
-header p{
-    font-size:22px !important;
-    color:white !important;
-    text-shadow:0 2px 8px rgba(0,0,0,.8);
-}
-
-.logo{
-    width:120px !important;
+    width:130px;
+    display:block;
+    margin:0 auto 20px;
     filter:drop-shadow(0 0 10px rgba(212,175,55,.7));
 }
-.tarjetas{
-    display:flex;
-    gap:25px;
-    justify-content:center;
-    flex-wrap:wrap;
-    margin-top:35px;
+
+
+header h1{
+    color:#d4af37;
+    font-size:42px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    text-shadow:0 3px 10px #000;
 }
 
-.tarjetas .card{
-    flex:1;
-    min-width:280px;
-    max-width:330px;
-    text-align:center;
-    padding:30px 25px;
-    border:1px solid #d4af37;
-    border-radius:15px;
+
+header p{
+    font-size:22px;
+    margin-bottom:30px;
+    text-shadow:0 2px 8px #000;
+}
+
+
+/* BOTONES */
+
+.boton{
+    display:inline-block;
+    background:#d4af37;
+    color:#000;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 0 20px rgba(212,175,55,.5);
     transition:.3s;
 }
 
-.tarjetas .card h3{
-    color:#d4af37;
-    margin-bottom:15px;
-    font-size:24px;
+
+.boton:hover{
+    background:white;
 }
 
-.tarjetas .card:hover{
-    transform:translateY(-8px);
+
+/* SECCIONES */
+
+section{
+    width:100%;
+    max-width:1100px;
+    margin:auto;
+    padding:35px 20px;
 }
+
+
+section h2{
+    text-align:center;
+    color:#d4af37;
+    font-size:30px;
+    margin-bottom:30px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+
+/* TARJETAS */
+
+.tarjetas{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+.card{
+    background:#0b0b0b;
+    border:1px solid #d4af37;
+    border-radius:15px;
+    padding:25px;
+    max-width:330px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.8);
+    transition:.3s;
+}
+
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+
+.card p{
+    color:#ddd;
+}
+
+
+.card img{
+    width:100%;
+    margin-top:15px;
+    border-radius:12px;
+}
+
+
+/* VACANTES */
+
+.vacante{
     max-width:850px;
-    margin:40px auto;
-    background:#0d0d0d;
+    margin:30px auto;
+    background:#0b0b0b;
     border:1px solid #d4af37;
     border-radius:18px;
-    padding:40px;
-    box-shadow:0 10px 35px rgba(0,0,0,.7);
+    padding:35px;
+    box-shadow:0 10px 35px rgba(0,0,0,.8);
 }
+
 
 .vacante h3{
     color:#d4af37;
-    font-size:30px;
+    font-size:25px;
     margin-bottom:20px;
 }
 
+
 .vacante p{
-    margin:15px 0;
-    line-height:1.8;
+    color:#ddd;
+    margin:12px 0;
 }
+
 
 .vacante ul{
     margin:15px 0 25px 25px;
 }
 
+
 .vacante li{
-    margin-bottom:10px;
+    margin-bottom:8px;
 }
 
-.vacante .boton{
-    display:inline-block;
-    margin-top:20px;
-}
-    /* ===== GALERÍA ===== */
 
-.galeria{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-    gap:20px;
-    margin-top:30px;
+/* FOOTER */
+
+footer{
+    background:#000;
+    border-top:1px solid #d4af37;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:50px;
 }
 
-.galeria img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-    border-radius:15px;
-    border:2px solid #d4af37;
-    transition:.3s;
+
+/* ANIMACIÓN */
+
+.card,
+.vacante{
+    animation:aparecer .7s ease;
 }
 
-.galeria img:hover{
-    transform:scale(1.03);
-    box-shadow:0 0 20px rgba(212,175,55,.5);
+
+@keyframes aparecer{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+/* CELULAR */
+
+@media(max-width:768px){
+
+    header{
+        padding:45px 15px;
+    }
+
+
+    .logo{
+        width:110px;
+    }
+
+
+    header h1{
+        font-size:28px;
+        line-height:1.2;
+    }
+
+
+    header p{
+        font-size:17px;
+    }
+
+
+    .boton{
+        width:90%;
+        max-width:350px;
+        padding:15px;
+    }
+
+
+    section{
+        padding:25px 15px;
+    }
+
+
+    section h2{
+        font-size:24px;
+    }
+
+
+    .tarjetas{
+        flex-direction:column;
+        align-items:center;
+    }
+
+
+    .card{
+        width:90%;
+        max-width:100%;
+    }
+
+
+    .vacante{
+        padding:22px;
+    }
+
+
+    .vacante h3{
+        font-size:22px;
+    }
+
 }
