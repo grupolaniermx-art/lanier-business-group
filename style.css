@@ -395,3 +395,31 @@ header p{
     width:120px !important;
     filter:drop-shadow(0 0 10px rgba(212,175,55,.7));
 }
+.tarjetas{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:35px;
+}
+
+.tarjetas .card{
+    flex:1;
+    min-width:280px;
+    max-width:330px;
+    text-align:center;
+    padding:30px 25px;
+    border:1px solid #d4af37;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.tarjetas .card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.tarjetas .card:hover{
+    transform:translateY(-8px);
+}
