@@ -271,3 +271,17 @@ footer{
     }
 
 }
+/* Ajuste sección Quiénes somos */
+
+.card:has(.imagen-portada){
+    max-width:900px;
+    text-align:left;
+}
+
+.imagen-portada{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:25px auto 0;
+    border-radius:15px;
+}
