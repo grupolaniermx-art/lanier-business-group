@@ -423,3 +423,35 @@ header p{
 .tarjetas .card:hover{
     transform:translateY(-8px);
 }
+    max-width:850px;
+    margin:40px auto;
+    background:#0d0d0d;
+    border:1px solid #d4af37;
+    border-radius:18px;
+    padding:40px;
+    box-shadow:0 10px 35px rgba(0,0,0,.7);
+}
+
+.vacante h3{
+    color:#d4af37;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.vacante p{
+    margin:15px 0;
+    line-height:1.8;
+}
+
+.vacante ul{
+    margin:15px 0 25px 25px;
+}
+
+.vacante li{
+    margin-bottom:10px;
+}
+
+.vacante .boton{
+    display:inline-block;
+    margin-top:20px;
+}
