@@ -91,7 +91,7 @@ margin-top:50px;
 }
 @media (max-width:768px){
 
-    body
+    body{
         font-size:17px;
     }
 
@@ -327,6 +327,7 @@ border-top:1px solid #d4af37;
 }
 
 @keyframes fade{
+    from{
         opacity:0;
         transform:translateY(20px);
     }
@@ -334,6 +335,7 @@ border-top:1px solid #d4af37;
         opacity:1;
         transform:translateY(0);
     }
+}
 /* Ajustes para celular */
 @media (max-width: 600px){
 
